@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: data-endpoint
+server:
+  port: 8090
