@@ -1,11 +1,10 @@
 # Integration Assignment
 
 ## Build a small integration (import an exam)
-- Create fetch exam endpoint in AssignmentController to import, validate and map exam data returned from the data endpoint.
-- Also create the data endpoint (in DataEndPointController) to return the exam data.
+- Create an endpoint (in DataEndpointController) that can be requested and return json.
+- Create another exam endpoint (in AssignmentController) to import, validate, and map exam data returned from the data endpoint.
 - The validation process should be able to give a precise error message if the json is malformed or missing keys.
-- The data from the endpoints should correspond to the two json models given below.
-
+- The data and urls for the two endpoints should correspond to the two json models given below.
 
 ### Assignment project
 #### Request:
