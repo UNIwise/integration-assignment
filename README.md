@@ -53,7 +53,7 @@
 }
 ```
 #### startDate and endDate
-- Timestamps
+- Unix timestamps
 ### examId
 - Some string
 
