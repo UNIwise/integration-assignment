@@ -1,10 +1,18 @@
 # Integration Assignment
 
 ## Build a small integration (import an exam)
-- Create an endpoint (in DataEndpointController) that can be requested and return json.
-- Create another exam endpoint (in AssignmentController) to import, validate, and map exam data returned from the data endpoint.
-- The validation process should be able to give a precise error message if the json is malformed or missing keys.
+- Create an endpoint (in date-endpoint/../DataEndpointController) that can be requested and return json.
+- Create another exam endpoint (in assignment-project/../AssignmentController).
+- The assignment endpoint should do the following:
+    -   decode examId
+    -   send request with examId to data endpoint
+    -   map data response to the project response format
+    -   return mapped data to requester
 - The data and urls for the two endpoints should correspond to the two json models given below.
+
+#### Extra
+- Validate the json from the data endpoint and give a precise error message if the json is malformed or missing keys.
+
 
 ### Assignment project
 #### Request:
@@ -33,6 +41,8 @@
 ```
 #### startDate and endDate
  - timestamps
+### examId
+- base64Encoded examId
 
 ### Data endpoint
 #### Request 
@@ -60,3 +70,6 @@
 
 #### date
 - yyyy-MM-dd
+
+### examId
+ - decoded examId
