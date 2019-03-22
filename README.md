@@ -17,8 +17,8 @@
 - Create an endpoint (in data-endpoint/../DataEndpointController) that can be requested and return json.
 - Create another exam endpoint (in assignment-project/../AssignmentController).
 - The assignment endpoint should do the following:
-    -   decode examId
-    -   send request with examId to data endpoint
+    -   Read examId from the request
+    -   send request with the same examId to the data endpoint
     -   map data response to the project response format
     -   return mapped data to requester
 - The data and urls for the two endpoints should correspond to the two json models given below.
