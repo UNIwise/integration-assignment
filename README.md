@@ -5,7 +5,7 @@
 -   Pull project from github
 -   Open (not import) the project with intellij
 -   To build code use maven dashboard (ctrl+shift+A then search maven) clean then install
--   If you install via the maven project root, it builds for both project and endpoint
+-   If you build via the maven project root, it builds for both project and endpoint
 -   You might need to reimport or generate source the maven projects:
 
 ![](image/mavenImport.png)
