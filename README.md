@@ -3,8 +3,8 @@
 ## Setup
 
 -   Pull project from github
--   open (not import) the project with intellij
--   to build code use maven dashboard (ctrl+shift+A then search maven) clean then install
+-   Open (not import) the project with intellij
+-   To build code use maven dashboard (ctrl+shift+A then search maven) clean then install
 -   If you install via the maven project root, it builds for both project and endpoint
 -   You might need to reimport or generate source the maven projects:
 
@@ -53,7 +53,7 @@
 }
 ```
 #### startDate and endDate
- - timestamps
+- timestamps
 ### examId
 - base64Encoded examId
 
@@ -85,4 +85,4 @@
 - yyyy-MM-dd
 
 ### examId
- - decoded examId
+- decoded examId
