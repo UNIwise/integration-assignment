@@ -5,8 +5,8 @@
 -   Pull project from github
 -   open (not import) the project with intellij
 -   to build code use maven dashboard (ctrl+shift+A then search maven) clean then install
--   root builds for both project and endpoint
--   You might reimport or generate source the maven projects:
+-   If you install via the maven project root, it builds for both project and endpoint
+-   You might need to reimport or generate source the maven projects:
 
 ![](image/mavenImport.png)
 -   to run either of the two spring applications (project or data endpoint) just use intellij's build in runner:
@@ -14,7 +14,7 @@
 ![](image/springRun.png)
 
 ## Build a small integration (import an exam)
-- Create an endpoint (in date-endpoint/../DataEndpointController) that can be requested and return json.
+- Create an endpoint (in data-endpoint/../DataEndpointController) that can be requested and return json.
 - Create another exam endpoint (in assignment-project/../AssignmentController).
 - The assignment endpoint should do the following:
     -   decode examId
