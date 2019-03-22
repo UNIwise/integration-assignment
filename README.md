@@ -9,7 +9,7 @@
 -   If you have problems with maven install you might need to reimport or generate source the maven projects:
 
 ![](image/mavenImport.png)
--   to run either of the two spring applications (project or data endpoint) just use intellij's build in runner:
+-   To run either of the two spring applications (project or data endpoint) just use intellij's build in runner:
 
 ![](image/springRun.png)
 
@@ -17,14 +17,14 @@
 - Create an endpoint (in data-endpoint/../DataEndpointController) that can be requested and return json.
 - Create another exam endpoint (in assignment-project/../AssignmentController).
 - The assignment endpoint should do the following:
-    -   Read examId from the request
-    -   send request with the same examId to the data endpoint
-    -   map data response to the project response format
-    -   return mapped data to requester
+    -   Read examId from the request url
+    -   Send a request with the same examId to the data endpoint
+    -   Map the data response to the project response format
+    -   Return mapped data to requester
 - The data and urls for the two endpoints should correspond to the two json models given below.
 
 #### Extra
-- Validate the json from the data endpoint and give a precise error message if the json is malformed or missing keys.
+- Validate the json from the data endpoint and give a precise error message, if the json is malformed or missing keys.
 
 
 ### Assignment project
