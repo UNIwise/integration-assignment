@@ -6,7 +6,7 @@
 -   Open (not import) the project with intellij
 -   To build code use maven dashboard (ctrl+shift+A then search maven) clean then install
 -   If you build via the maven project root, it builds for both project and endpoint
--   If you have problems with maven install you might need to reimport or generate source the maven projects:
+-   If you have problems with maven install you might need to reimport or generate source for the maven projects:
 
 ![](image/mavenImport.png)
 -   To run either of the two spring applications (project or data endpoint) just use intellij's build in runner:
