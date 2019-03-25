@@ -14,7 +14,7 @@
 ![](image/springRun.png)
 
 ## Build a small integration (import an exam)
-- Create an endpoint (in data-endpoint/../DataEndpointController) that can be requested and return json.
+- Create an endpoint (in data-endpoint/../DataEndpointController) that can be requested and return json. (You can read about Spring REST controllers on <https://spring.io/guides/gs/rest-service/>)
 - Create another exam endpoint (in assignment-project/../AssignmentController).
 - The assignment endpoint should do the following:
     -   Read examId from the request url
